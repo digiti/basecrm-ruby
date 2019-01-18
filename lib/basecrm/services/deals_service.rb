@@ -2,7 +2,7 @@
 
 module BaseCRM
   class DealsService
-    OPTS_KEYS_TO_PERSIST = Set[:contact_id, :currency, :custom_fields, :hot, :loss_reason_id, :name, :owner_id, :source_id, :stage_id, :tags, :value, :last_stage_change_at, :estimated_close_date, :customized_win_likelihood]
+    OPTS_KEYS_TO_PERSIST = Set[:contact_id, :currency, :custom_fields, :hot, :loss_reason_id, :name, :owner_id, :source_id, :stage_id, :tags, :value, :last_stage_change_at, :estimated_close_date, :customized_win_likelihood, :unqualified_reason_id]
 
     def initialize(client)
       @client = client
